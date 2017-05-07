@@ -1,0 +1,76 @@
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+body{
+	background-color: #eeeeee;
+	margin:0;
+}
+
+#jumbo {
+	padding: 5px;
+}
+
+.answer:hover {
+  background: lightblue;
+  color: black;
+}
+
+.timer-p {
+  clear:both;
+  position: relative;
+  z-index: 9997;
+  bottom: 4.67em; 
+  color: white;
+
+}
+
+.pacmanbg {
+	width: 500px;
+}
+
+.pacman {
+  clear:both;
+  position: relative;
+  z-index: 9999;
+  bottom: 2.5em; 
+  margin-left: 2.2em; 
+  background: url('../images/pacman.gif') no-repeat;
+  width: 35px;
+  height: 35px;
+}
+
+.pacmanblack {
+  clear:both;
+  position: relative;
+  z-index: 9998;
+  bottom: 4.9em; 
+  margin-left: 1.7em;
+}
+
+.questionimg {
+	clear:both;
+	position: relative;
+  	top: -3.6em;
+}
+
+.answer{
+	position: relative;
+  	top: -2.5em;
+}
+
+.correctans{
+	position: relative;
+  	top: -4.5em;
+}
+
+.anspanel{
+	position: relative;
+  	top: -6.5em;
+}
+
+
+
+
